@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu&display=swap');
+
+.home-title {
+    font-family: 'Oswald', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 body {
     background-color: #fcfbfb;
+    font-family: Ubuntu, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,6 +27,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -27,7 +40,11 @@ nav a:hover {
 }
 
 h4 {
-    color: white;
+    color: black;
+}
+
+h2 {
+    margin: 0;
 }
 
 #hero-msg h1 {
@@ -46,10 +63,14 @@ h4 {
     background-color: rgb(193, 165, 165);
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
-    background-color: rgb(143, 143, 211) color;
+    background-color: rgb(143, 143, 211);
     color: white
 }
 
@@ -57,6 +78,11 @@ h4 {
     background-color: greenyellow;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .join:hover {
@@ -71,14 +97,19 @@ main {
 
 .msg {
     background-color: steelblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Oswald', 'Bradley Hand', sans-serif;
 }
 
 .msg p {
     color: white;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 
 #background {
@@ -87,6 +118,8 @@ main {
 
 footer {
     background-color: skyblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -106,14 +139,43 @@ footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
 }
